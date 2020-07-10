@@ -9,7 +9,7 @@
 		<h1 class="home-title">{{ .Title }}</h1>
 	{{ end }}
   {{ if .Title }}
-   <p>Map: <a href="http://maps.apple.com/maps?q={{ .Title | safeURL }},16" title="position on map">Map link {{ .Title }}</a></p>
+   <p>Map: <a href="http://maps.apple.com/maps?q={{ .Title | safeURL }},16" title="position on map">{{ .Title }}</a></p>
   {{ end }}
     <div class="content post e-content">
       {{ .Content }}
