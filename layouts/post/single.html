@@ -9,7 +9,7 @@
 		<h1 class="page-title">{{ .Title }}</h1>
 	{{ end }}
   {{ if .Title }}
-    <p>Map: <a href="http://maps.apple.com/maps?q={{ .Title | safeURL }},16" title="position on map">Map link {{ .Title }}</a></p>
+    <p>Map: <a href="http://maps.apple.com/maps?q={{ .Title | safeURL }},16" title="position on map">{{ .Title }}</a></p>
   {{ end }}
   <div class="post-date">
      <time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
