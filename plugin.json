@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "title": "GeoTag micro.blog simple",
+  "description": "Takes coordinates and passes them to a marker on an Apple or Google map."
+  "includes": [
+    "/layouts/_default/list.html",
+    "/layouts/_default/single.html",
+    "/layouts/post/single.html",
+  ]
+}
