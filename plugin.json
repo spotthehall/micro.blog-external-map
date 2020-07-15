@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "title": "GeoTag micro.blog simple",
-  "description": "Beware: This takes coordinates entered into the Title field and passes them to a marker on an Apple or Google map. So it messes-up using that Title for anything else!"
+  "description": "Beware: This takes coordinates entered into the Title field and passes them to a marker on an Apple or Google map. So it messes-up using that Title for anything else!",
   "includes": [
     "/layouts/_default/list.html",
     "/layouts/post/single.html",
